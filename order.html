@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Оформление заказа</title>
+</head>
+<body>
+<header>
+    <table width="100%" cellspacing="0" cellpadding="10" border="1">
+        <tr>
+            <td>
+                <img src="logo.jpg" height="200" width="200">
+            </td>
+            <td colspan="2">
+                <a href="https://yandex.ru/maps/213/moscow/search/технопарк/?ll=37.518479%2C55.660917&sll=37.518479%2C55.660866&source=serp_navig&z=11">
+                    <font size="6">Адреса магазинов</font></a>
+            </td>
+            <td colspan="2">
+                <font size="5">+7 900 850-00-01</font><br>
+                <a href="order.html"><font size="5">Оформить заказ</font></a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="main_page.html"><font size="5">Главное</font></a>
+            </td>
+            <td>
+                <a href="fridge.html"><font size="5">Холодильники</font></a>
+            </td>
+            <td>
+                <a href="washing.html"><font size="5">Стиральные машины</font></a>
+            </td>
+            <td>
+                <a href="plates.html"><font size="5">Плиты</font></a>
+            </td>
+            <td>
+                <a href="infa.html"><font size="5">О нас</font></a>
+            </td>
+        </tr>
+    </table>
+</header>
+
+<table width="100%" cellspacing="0" cellpadding="10" border="1">
+    <tr>
+        <td>
+            <a href="main_page.html"><font size="5">К каталогу</font></a>
+        </td>
+    </tr>
+</table>
+
+
+
+<form action="https://dzen.ru/?clid=2422906-525&from=dist_vz&win=513&yredirect=true" method='get' target='_self'>
+
+ <fieldset>
+  <legend>Контактная информация</legend>
+  <label for="fname">Имя</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for='number'>Телефон</label>
+  <input type="text" id="number" name="number"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Дата рождения:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+ </fieldset>
+
+ <fieldset>
+  <legend>Заказ</legend>
+  <label name='buy'>Что хотите приобрести?</label>
+  <select id='buy1'>
+    <option>Холодильник</option>
+    <option>Стиральную машину</option>
+    <option>Плиту</option>
+  </select><br><br>
+ </fieldset>
+
+ <fieldset>
+     <legend>Оценка магизина:</legend>
+    <p>Довольны ли Вы качеством обслуживания?</p>
+    <input type="Radio" name="choice1">Да <br><br>
+    <input type="Radio" name="choice1">Нет<br><br>
+     <label>Для комментариев:</label><textarea name="name" rows="8" cols="80"></textarea>
+ </fieldset>
+
+  <input class ='btn' name="submit" type="Submit" value="Отправить">
+
+</form>
+
+
+<footer>
+    <table width="100%" cellspacing="0" cellpadding="10" border="1">
+        <tr>
+            <td>
+                <img src="logo.jpg" height="200" width="200">
+            </td>
+            <td>
+                <font size="4">Контактная информация:<br>
+                <ol type="1">
+                    <li>По номеру телефонов:</li>
+                    <ul type="disc">
+                        <li>+7 900 850-00-01</li>
+                        <li>+7 966 890-00-09</li>
+                    </ul>
+                    <li>По почтовому адрессу:</li>
+                    <ul type="disc">
+                        <li>adress@mail.ru</li>
+                    </ul>
+                </ol>
+                </font>
+            </td>
+            <td>
+                <font size="4">
+                <ul type="disc">
+                    <li>Первый центр по качеству обслуживания</li>
+                    <li>Круглосуточная доставка</li>
+                    <li>Ежемесячные акции и разыгрыши призов</li>
+                </ul>
+                </font>
+            </td>
+            <td>
+                <img src="logo.jpg" height="200" width="200">
+            </td>
+        </tr>
+    </table>
+</footer>
+
+</body>
+</html>
