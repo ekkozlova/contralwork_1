@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи</title>
+</head>
+<body>
+
+
+<script>
+    let year = prompt('Укажите год', '')
+    if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+        alert('Високосный');
+      } else {
+        alert('Невисокосный')
+      }
+
+    if (year % 100 == 0) {
+            year = Math.floor(year / 100);
+        } else {
+            year = Math.floor(year / 100) + 1;
+        }
+        alert(year)
+
+</script>
+
+</body>
+</html>

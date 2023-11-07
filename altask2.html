@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи</title>
+</head>
+<body>
+
+<p>
+    <a href="altask.html"><font size="5">Решение алгоритмической задачи</font></a><br>
+    1018. Известен год.  Определить, будет ли этот год високосным, и к какому веку этот год относится.
+</p>
+
+Укажите год:
+<input id="year" name="year" value="1772"><br>
+
+<input id="for_click" type="button" value="отправить">
+
+<script>
+    const input = document.getElementById('year');
+    let value = input.value;
+
+    const node_for_click = document.getElementById("for_click")
+
+    function leapyear(){
+    if ((value % 4 === 0 && value % 100 !== 0) || value % 400 === 0) {
+        alert('Високосный');
+      } else {
+        alert('Невисокосный')
+      }
+
+    node_for_click.addEventListener("click", leapyear)
+</script>
+
+
+
+</body>
+</html>
